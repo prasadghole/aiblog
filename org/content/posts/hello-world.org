@@ -1,0 +1,34 @@
+#+title: Hello World
+#+date: 2024-03-20
+#+author: Your Name
+#+tags: [hugo, blog, first-post]
+#+categories: [general]
+#+hugo_base_dir: ../../
+#+hugo_section: posts
+#+hugo_draft: false
+
+This is my first blog post using Hugo and ox-hugo!
+
+* Introduction
+
+This post demonstrates how to use org-mode with ox-hugo to create blog posts.
+
+* Features
+
+- Write in org-mode
+- Export to Hugo markdown
+- Use Blowfish theme
+- Enjoy beautiful typography
+
+* Code Example
+
+Here's a simple code example:
+
+#+begin_src python
+def hello_world():
+    print("Hello, World!")
+#+end_src
+
+* Conclusion
+
+This setup allows you to write your blog posts in org-mode and export them to Hugo markdown format. 

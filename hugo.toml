@@ -1,0 +1,62 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'My Blog'
+theme = 'blowfish'
+
+# Enable ox-hugo
+enableEmoji = true
+enableGitInfo = true
+
+# Blowfish theme configuration
+[params]
+  # Theme color scheme
+  colorScheme = "auto"
+  
+  # Enable search
+  enableSearch = true
+  
+  # Enable code highlighting
+  enableCodeCopy = true
+  
+  # Enable article reading time
+  showReadingTime = true
+  
+  # Enable article word count
+  showWordCount = true
+  
+  # Enable article sharing
+  showShare = true
+  
+  # Enable article comments
+  showComments = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 40
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 50
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
